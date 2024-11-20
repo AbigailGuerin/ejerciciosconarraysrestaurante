@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Restaurante</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Mesas en el Restaurante</h1>
+        <div id="mesas">
+        </div>
+        <div class="seccion-entrada">
+            <label for="comensales">Cantidad de comensales:</label>
+            <input type="number" id="comensales" min="1" max="4">
+            <button onclick="asignarMesa()">Asignar Mesa</button>
+        </div>
+        <div id="resultado"></div>
+    </div>
+    <script src="calculos.js"></script>
+</body>
+
+</html>
